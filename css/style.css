@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
+html{
+    /* proprietà per fare lo spostamento con il click del link più lentamente. Bisogna impostarla al contenitore che scrolla al momento dello spostamento. Se non diversamente specificato ad html*/
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-
 
 /* nav bar */
 nav {
