@@ -77,6 +77,11 @@ nav ul li a:hover{
     font-weight: 900;
 }
 
+.box:hover .content div{
+    text-shadow: 1px 3px rgb(255, 130, 0);
+}
+
+
 /* overlay properties */
 .overlay{
     background-color: rgba(0, 0, 0, 0.2);
